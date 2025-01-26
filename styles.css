@@ -18,7 +18,7 @@ body {
     border-radius: 24px;
     left: 50%;
     background-color: royalblue;
-    transform: translate(-10px, 0);
+    transform: translateX(-50%);
 }
 
 .navigation ul {
@@ -31,19 +31,17 @@ body {
     height: 35px;
     width: 35px;
     margin: 1rem;
-    padding: 0 1rem;
     color: white;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transition: all 0.2s linear;
+    transition: transform 0.2s linear, color 0.2s linear, background-color 0.2s linear;
 }
 
 .navigation ul li:hover {
     color: blueviolet;
     transform: scale(1.2);
     background-color: #fff;
-    border-radius: 50%;
 }
