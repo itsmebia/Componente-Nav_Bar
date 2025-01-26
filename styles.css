@@ -45,3 +45,35 @@ body {
     transform: scale(1.2);
     background-color: #fff;
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .navigation {
+        bottom: 16px; 
+    }
+
+     .navigation ul li {
+        height: 30px; 
+        width: 30px; 
+        margin: 0.5rem; 
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        flex-direction: column; 
+    }
+
+    .navigation {
+        bottom: 10px; 
+    }
+
+    .navigation ul {
+        flex-direction: row; 
+    }
+
+    .navigation ul li {
+        height: 25px; 
+        width: 25px; 
+    }
+}
